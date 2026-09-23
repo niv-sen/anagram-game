@@ -1,7 +1,7 @@
 body {
-    font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
-    background-color: #fdf6f0;
-    color: #4a4a4a;
+    font: 600 1.1rem 'Trebuchet MS', sans-serif;
+    background: #fdf6f0;
+    color: #628e8c;
     text-align: center;
 }
 
@@ -12,29 +12,24 @@ body {
     color: #7e2574;
 }
 
-p {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #628e8c;
+button,
+input {
+    font: inherit;
+    font-size: 1rem;
+    border-radius: 12px;
+    padding: 0.6rem 1.4rem;
+    margin: 0.4rem;
 }
 
 button {
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: bold;
     color: white;
     border: none;
     background-color: #a5b5e3;
-    border-radius: 12px;
-    padding: 0.7rem 1.5rem;
-    margin: 0.4rem;
+    font-weight: bold;
     min-width: 140px;
 }
 
-input[type="text"] {
-    font-size: 1rem;
-    padding: 0.5rem;
+input {
     border: 2px solid #a5b5e3;
-    border-radius: 10px;
-    outline: none;
+    padding: 0.5rem;
 }
