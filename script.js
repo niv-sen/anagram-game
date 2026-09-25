@@ -42,6 +42,7 @@ function startGame() {
     wordDisplay.textContent = scrambledWord;
 }
 
+
 function scrambleArray(wordArray) {
     let length = wordArray.length;
     let scramble = wordArray.slice();
